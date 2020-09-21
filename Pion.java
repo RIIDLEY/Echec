@@ -1,6 +1,6 @@
-import java.io.Serializable;
 
-public class Pion extends Piece implements Serializable {
+
+public class Pion extends Piece   {
   private boolean etat;
   private String piece;
   private static final long serialVersionUID = 8987302689856L;

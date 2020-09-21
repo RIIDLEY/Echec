@@ -1,10 +1,9 @@
-import java.io.Serializable;
 
-public class Tour extends Piece implements Serializable {
-  private String piece;
+public class Tour extends Piece   {
+  private final String piece;
   private static final long serialVersionUID = 687953565886L;
 
-  public Tour(String couleur, int ligne, int colonne, Echiquier echiquier) {
+  public Tour(final String couleur, final int ligne, final int colonne, final Echiquier echiquier) {
     super(couleur, ligne, colonne, echiquier);
     /*if(couleur.equals("Blanc")) {
       this.piece = "\u2656"; //Code utf-8 pour la Tour blanche
@@ -15,12 +14,12 @@ public class Tour extends Piece implements Serializable {
     piece = "To";
   }
 
-  public boolean verifMouvement(int ligneArriver, int colonneArriver){
+  public boolean verifMouvement(final int ligneArriver, final int colonneArriver){
     if(!(this.verifCouleurPiece(ligneArriver,colonneArriver))) {
       return false;
     }
 
-    String direction = this.direction(ligneArriver, colonneArriver);
+    final String direction = this.direction(ligneArriver, colonneArriver);
     if(direction == "haut"){
       for(int i = this.ligne - 1; i > ligneArriver; i--){
         if(this.plateau[8*i+colonneArriver] != null) return false;

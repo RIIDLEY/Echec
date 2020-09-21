@@ -1,16 +1,19 @@
-import java.awt.*;
 import javax.swing.*;
 
 public class BoutonJeu extends JButton{
-  private int x;
+  /**
+   *
+   */
+  private static final long serialVersionUID = 1L;
+  private final int x;
   private int y;
 
-  public BoutonJeu(int x){
+  public BoutonJeu(final int x) {
     super();
     this.x = x;
   }
 
-  public BoutonJeu(String nom,int x,int y){
+  public BoutonJeu(final String nom, final int x, final int y) {
     super(nom);
     this.x = x;
     this.y = y;

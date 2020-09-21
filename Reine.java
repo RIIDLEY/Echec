@@ -1,6 +1,6 @@
-import java.io.Serializable;
 
-public class Reine extends Piece implements Serializable {
+
+public class Reine extends Piece  {
   private String piece;
   private static final long serialVersionUID = 789246878L;
 

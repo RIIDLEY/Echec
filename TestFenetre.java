@@ -1,6 +1,6 @@
 public class TestFenetre{
 
-  public static void main(String[] args){
-    Fenetre f = new Fenetre("bonjour");
+  public static void main(final String[] args) {
+    new Fenetre("bonjour");
   }
 }
