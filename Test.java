@@ -6,7 +6,7 @@ public class Test {
 
 
     //Piece pionBlanc5 = e.getCase(6,4); // pion blanc ligne 6 colonne 5
-    //Piece pionNoir5 = e.getCase(1,4); // pion noir ligne 2 colonne 5 coucou test
+    //Piece pionNoir5 = e.getCase(1,4); // pion noir ligne 2 colonne 5
     //Piece pionNoir1 = e.getCase(1,0);
     //Piece reineBlanche = e.getCase(7,3);
     //Piece cavalierNoir = e.getCase(0,1);
